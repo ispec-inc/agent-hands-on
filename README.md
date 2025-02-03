@@ -1,11 +1,11 @@
 # Agent Hands On
 
 ## Requirements
-- Python 3.12以上
-- uv 0.1以上
+- Python 3.13.1
+- uv 0.5.26
 
 ## Getting Started
-Pythonのバージョン管理ツールとしてuvを使用しています。
 ```
-uv run hello.py
+$ uv run hello.py
+プロンプトを入力:
 ```
