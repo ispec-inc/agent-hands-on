@@ -1,0 +1,16 @@
+lint.select = ["N", "E", "W", "F", "I", "C90", "S"]
+
+lint.ignore = []
+lint.fixable = ["ALL"]
+lint.exclude = [".ruff_cache"]
+
+line-length = 120
+indent-width = 4
+
+target-version = "py312"
+
+[lint.pydocstyle]
+convention = "google"
+
+[lint.per-file-ignores]
+"src/tests/*.py" = ["S101"]
